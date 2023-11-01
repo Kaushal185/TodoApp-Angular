@@ -1,6 +1,6 @@
 <div *ngFor="let x of todos">
     <!-- Here we are using conecpt of directives -->
-    <app-todo-item [todo] ="x" ></app-todo-item>
+    <app-todo-item [todo] ="x" (todoDelete)="deleteTodo($event)" ></app-todo-item>
     <!-- <li>{{item.sno}} - {{item.title}} - {{item.desc}}</li> -->
 </div>
 
