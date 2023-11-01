@@ -1,0 +1,48 @@
+/* This assumes you're using Bootstrap for the btn and btn-danger classes. If not, adjust accordingly. */
+
+.my-3 {
+    margin-bottom: 1rem; /* Adjust margin as needed */
+    padding: 1rem;
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 5px; /* Add rounded corners if desired */
+    background-color: #f8f9fa; /* Light background color, adjust as needed */
+  }
+  
+  h3 {
+    color: #dc3545; /* Text color for the title, using Bootstrap's danger color */
+  }
+  
+  p {
+    color: #495057; /* Text color for the description */
+  }
+  
+  .btn-danger {
+    background-color: #a410c1; /* Background color for the delete button */
+    color: #fff; /* Text color for the delete button */
+    border: 1px solid #ba0e1f; /* Border color for the delete button */
+    border-radius: 3px; /* Add rounded corners if desired */
+    cursor: pointer; /* Show pointer cursor on hover */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+  }
+  
+  .btn-danger:hover {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #ffffff;
+    background: #008060;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+    :hover {
+        background: #006e52;
+    }
+  }
+  
+
