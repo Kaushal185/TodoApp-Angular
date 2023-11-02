@@ -1,0 +1,7 @@
+.todos-container {
+    display: flex; /* Use flexbox to arrange todo items horizontally */
+    flex-wrap: wrap; /* Wrap items to the next line if they don't fit horizontally */
+    gap: 10px; /* Add some space between todo items */
+    justify-content: center; /* Center items horizontally */
+  }
+  
